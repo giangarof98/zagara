@@ -3,9 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
 $title: 'Hurricane', cursive;
 
+//Desktop 
 header{
     width: 100%;
     display: flex;
@@ -79,13 +79,16 @@ main{
             .right{
                 width: 40%;
                 display: flex;
-                flex-direction: row;
-                align-items: center;
+                flex-direction: column;
+                justify-content: center;
                 padding: 40px;
+                gap: 20px;
                 .info{
                     display: flex;
                     flex-direction: column;
                     gap: 50px;
+                }
+                .btn{
                     button{
                         border: none;
                         font-size: 25px;
@@ -115,5 +118,55 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+}
+
+//Media Queries 765px
+
+@media all and (max-width: 768px){
+    header{
+        width: 100%;
+        nav{
+            width: 100%;
+            font-size: medium;
+        }
+    }
+
+    main{
+        .container{
+            .card{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 10px;
+                .left{
+                    width: 100%;
+                    height: 300px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .right{
+                    width: 100%;
+                    padding: 0px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .info{
+                        display: flex;
+                        flex-direction: row;
+                        display: none;
+                    }
+                    .btn{
+                        width: 100%;
+                        margin: 0;
+                        padding: 0;
+                        button{
+                            border-radius: 0;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
