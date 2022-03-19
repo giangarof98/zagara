@@ -266,6 +266,12 @@ footer .container {
     width: 100%;
     font-size: medium;
   }
+  main .container section {
+    width: 100%;
+  }
+  main .container section form {
+    width: 70%;
+  }
   main .container .card {
     display: -webkit-box;
     display: -ms-flexbox;

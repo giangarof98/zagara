@@ -184,6 +184,13 @@ footer{
 
     main{
         .container{
+            section{
+                width: 100%;
+                form{
+                    width: 70%;
+                    
+                }
+            }
             .card{
                 display: flex;
                 flex-direction: column;
