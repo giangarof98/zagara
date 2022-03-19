@@ -91,6 +91,70 @@ main .container {
   width: 100%;
 }
 
+main .container section {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container section form {
+  text-align: center;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container section form label {
+  width: 100px;
+  background-color: #fff;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-bottom: -10px;
+  padding: 10px;
+  z-index: 1;
+}
+
+main .container section form input {
+  width: 100%;
+  background-color: #e9e0e0;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+}
+
+main .container section form button {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #a703a7;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
 main .container .card {
   width: 100%;
   display: -webkit-box;
