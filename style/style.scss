@@ -156,6 +156,25 @@ footer{
                         flex-direction: row;
                         display: none;
                     }
+                    .click{
+                        width: 100%;
+                        text-align: center;
+                        background-color: #000;
+                        color: white;
+                        margin-top: -20px;
+                        z-index: 1;
+                        p{
+                            font-size: x-large;
+                            padding: 5px;
+                            letter-spacing: 1px;
+                            a{
+                                color: gold;
+                                cursor: pointer;
+                                text-decoration: none;
+                            }
+                        }
+                        
+                    }
                     .btn{
                         width: 100%;
                         margin: 0;

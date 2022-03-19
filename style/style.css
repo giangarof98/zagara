@@ -238,6 +238,24 @@ footer .container {
             flex-direction: row;
     display: none;
   }
+  main .container .card .right .click {
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+    color: white;
+    margin-top: -20px;
+    z-index: 1;
+  }
+  main .container .card .right .click p {
+    font-size: x-large;
+    padding: 5px;
+    letter-spacing: 1px;
+  }
+  main .container .card .right .click p a {
+    color: gold;
+    cursor: pointer;
+    text-decoration: none;
+  }
   main .container .card .right .btn {
     width: 100%;
     margin: 0;
